@@ -1,0 +1,38 @@
+# Core UI Framework
+PySide6>=6.5.0
+
+# Screen Capture & Image Processing
+mss>=9.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR & AI
+rapidocr_onnxruntime>=1.2.0
+
+# Database & Search
+# sqlite3 is included in Python standard library
+
+# HTTP Client
+httpx>=0.24.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Utilities
+Pillow>=10.0.0
+pyperclip>=1.8.0
+
+# File Parsing (for review mode)
+pdfplumber>=0.10.0
+python-docx>=1.0.0
+openpyxl>=3.1.0
+
+# Global Hotkeys
+pynput>=1.7.6
+
+# Optional: Material Design Theme
+qt-material>=2.14.0
+
+# macOS Anti-capture (REQUIRED for macOS)
+pyobjc>=10.0; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=10.0; sys_platform == "darwin"
